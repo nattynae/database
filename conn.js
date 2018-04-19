@@ -18,12 +18,12 @@ var connection = mysql.createConnection({
 */
 connection.connect(function(err){
   if (err) console.log(err);
-  console.log('You are connected now');
-  /*
-  connection.query('select * from fakechula1', function(err ,result) {
-    console.log(result);
-  });
-  */
+  console.log('200: OK, Connected');
+
+  // connection.query('select * from person', function(err ,result) {
+  //   console.log(result);
+  // });
+
   });
 
 module.exports = connection;
