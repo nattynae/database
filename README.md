@@ -16,7 +16,7 @@ Description: The version on last day-of-presentation.
     * if search-keyword can't be found in table `Person`, website will alert.
 - - - -
 # Shortcut of "How to install`npm`"
- * `cd **your directory**`.
+ * `cd **YOUR_DIRECTORY**`.
  * open command prompt.<br>
  >> **running command prompt as administrator will be required!**<br>
   *in case of **npm** has no privilege on your install directory folder*.
