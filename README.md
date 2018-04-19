@@ -1,5 +1,5 @@
 # Reg Chula Project - Database 
-##### ~~<p align='right'>Fake Chula Project - Database</p>~~ 
+###### ~~<p align='right'>Fake Chula Project - Database</p>~~ 
  
  
 Last Edit-by-Yukung Version on 19 April 2018.
@@ -16,9 +16,11 @@ Description: The version on last day-of-presentation.
     * if search-keyword can't be found in table `Person`, website will alert.
 - - - -
 # Shortcut of "How to install`npm`"
-
- * open command prompt
- * `npm init`
+ * `cd **your directory**`.
+ * open command prompt.<br>
+ >> **running command prompt as administrator will be required!**<br>
+  *in case of **npm** has no privilege on your install directory folder*.
+ * `npm init`.
  * `npm install **HERE**`, by replace `**HERE**` with the following words :
     * `express --save`, `express --no-save`, `http`, `mysql`, `nodemon`  
 - - - -
