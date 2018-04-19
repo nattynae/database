@@ -15,7 +15,7 @@
 # Shortcut of "How to install`npm`"
  * `cd **YOUR_DIRECTORY**`.
  * open command prompt.<br>
- >> **running command prompt as administrator will be required!**<br>
+ > **running command prompt as administrator will be required!**<br>
   *in case of **npm** has no privilege on your install directory folder*.
  * `npm init`.
  * `npm install **HERE**`, by replace `**HERE**` with the following words :
