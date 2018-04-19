@@ -14,22 +14,15 @@ Description: The version on last day-of-presentation.
     * duplicate searching is avaliable, but webpage won't show a new duplicate result.<br>
     (the data that already be searched and displayed on webpage).
     * if search-keyword can't be found in table `Person`, website will alert.
- 
- 
- 
-----
- 
- 
+- - - -
 # Shortcut of "How to install`npm`"
 
  * open command prompt
  * `npm init`
  * `npm install **HERE**`, by replace `**HERE**` with the following words :
     * `express --save`, `express --no-save`, `http`, `mysql`, `nodemon`  
- 
-----
- 
-## Problem to solve
+- - - -
+# Problem to solve
  - [ ] [Front] : change `BirthDate` format to **Date** without **Time**,<br>
  *Actually it's bizzare to show birthdate with time like `3 Aug 1982 - 05:42:13` as well, right?*
  - [ ] [Both] : add **basic system**
