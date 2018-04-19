@@ -24,6 +24,8 @@ Description: The version on last day-of-presentation.
 ## Shortcut of "How to install `npm`"
 
  > open command prompt
+ 
  > `npm init`
- > `npm install **HERE**`, by replace **HERE** with the following words :
+ 
+ > `npm install **HERE**`, by replace `**HERE**` with the following words :
  >> `express --save`, `express --no-save`, `http`, `mysql`, `nodemon`  
