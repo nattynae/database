@@ -13,19 +13,20 @@ Description: The version on last day-of-presentation.
  > but won't show a duplicate (the data that already be searched and displayed on webpage).
  
  > if search-keyword can't be found in table `Person`, website will alert.
-
-
+ 
+ 
+ 
 ----
-
-
-## shortcut of " How to install `npm` "
+ 
+ 
+## Shortcut of " How to install `npm` "
 
  - open command prompt
  - `npm init`
  - `npm install **HERE**`
  replace **HERE** with the following words :
- > `express --save`
- > `express --no-save`
- > `http`
- > `mysql`
+ > `express --save`,
+ > `express --no-save`,
+ > `http`,
+ > `mysql`,
  > `nodemon`  
