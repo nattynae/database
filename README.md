@@ -30,3 +30,10 @@
  - [ ] [Both] : add **login system**
 
 *[Both] : it's a both (Front&Back - end)'s work/problem, as same with [Front] and [Back]*
+
+- - - -
+# Change
+## v1.0 to v1.1
+  * refactor [1.0]index.html to [1.1]search.html
+  * add ability searching with `all` to front-end, it's `select * from person` in back-end`<br>
+    that means now our front-end can loop!
