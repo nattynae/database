@@ -1,5 +1,5 @@
-# Reg Chula Project - Database
-##### ~~Fake Chula Project - Database~~ #####
+# Reg Chula Project - Database 
+##### ~~<p align='right'>Fake Chula Project - Database</p>~~ 
  
  
 Last Edit-by-Yukung Version on 19 April 2018.
