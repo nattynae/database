@@ -1,10 +1,6 @@
-# Reg Chula Project - Database 
-###### ~~<p align='right'>Fake Chula Project - Database</p>~~ 
- 
- 
-Last Edit-by-Yukung Version on 19 April 2018.
- 
-Description: The version on last day-of-presentation.
+# Reg Chula Project - Database  
+The version on last day-of-presentation.
+Last Edit-by-Yukung Version on 19 April 2018.<br>
 
 ## Feature & Description
  * be able to connect to localhost on port `8080`.
