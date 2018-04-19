@@ -16,7 +16,7 @@
  * `cd **YOUR_DIRECTORY**`.
  * open command prompt.<br>
  > **running command prompt as administrator will be required!**<br>
-  *in case of **npm** has no privilege on your install directory folder*.
+  *in case of **npm** has no privilege on your directory folder to install*.
  * `npm init`.
  * `npm install **HERE**`, by replace `**HERE**` with the following words :
     * `express --save`, `express --no-save`, `http`, `mysql`, `nodemon`  
