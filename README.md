@@ -6,15 +6,15 @@
 ## Feature & Description
  * be able to connect to localhost on port `8080`.
  * be able to access with GET method on `https://localhost:8080`.
- * website be able to search `Student` Data from `Person` table on `project` schema.
+ * website be able to search `Person` Data from `Person` table on `project` schema.
  * website be able to show result of each searching by
     * duplicate searching is avaliable, but webpage won't show a new duplicate result.<br>
     (the data that already be searched and displayed on webpage).
     * if search-keyword can't be found in table `Person`, website will alert.
 - - - -
 # Shortcut of "How to install`npm`"
- * `cd **YOUR_DIRECTORY**`.
- * open command prompt.<br>
+ * open command prompt.
+ * `cd **YOUR_DIRECTORY**`.<br>
  > **running command prompt as administrator will be required!**<br>
   *in case of **npm** has no privilege on your directory folder to install*.
  * `npm init`.
