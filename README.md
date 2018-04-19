@@ -8,6 +8,7 @@
  * be able to connect to localhost on port `8080`.
  * be able to access with GET method on `https://localhost:8080`.
  * website be able to search `Person` Data from `Person` table on `project` schema.
+    * now searching with `all` is avaliable, it's `select * from person`!
  * website be able to show result of each searching by
     * duplicate searching is avaliable, but webpage won't show a new duplicate result.<br>
     (the data that already be searched and displayed on webpage).
@@ -23,8 +24,8 @@
     * `express --save`, `express --no-save`, `http`, `mysql`, `nodemon`  
 - - - -
 # Problem to solve
- - [ ] [Front] : change `BirthDate` format to **Date** without **Time**,<br>
- *Actually it's bizzare to show birthdate with time like `3 Aug 1982 - 05:42:13` as well, right?*
+ - [x] [Front] : change `BirthDate` format to **Date** without **Time**,<br>
+ ***Solved**, But we (may) need to discuss about how to solved it, right?*
  - [ ] [Both] : add **basic system**
  - [ ] [Both] : add **login system**
 
