@@ -1,6 +1,7 @@
-# Reg Chula Project - Database  
-The version on last day-of-presentation.
-Last Edit-by-Yukung Version on 19 April 2018.<br>
+# Reg Chula Database Project
+###### By students on 2110422 Course - Database
+ * First version: v1.0 on Presentation day, create by Yukung<br>
+**Latest version v1.0 on 19 April 2018.**
 
 ## Feature & Description
  * be able to connect to localhost on port `8080`.
