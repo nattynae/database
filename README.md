@@ -29,3 +29,10 @@ Description: The version on last day-of-presentation.
  
  > `npm install **HERE**`, by replace `**HERE**` with the following words :
  >> `express --save`, `express --no-save`, `http`, `mysql`, `nodemon`  
+ 
+----
+ 
+## Problem to solve
+ - [ ] change `BirthDate` format to **Date** without **time**,*it's bizzare to show birthdate with time 00:00:00*
+ - [ ] add **login system**
+ - [ ] add **other system**
