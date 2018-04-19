@@ -5,20 +5,20 @@ var con = require('./conn');
 
 // SEARCH BY ID
 router.post('/searchbyid', function(req, res){
-  let studentID = req.body.IDNo;
-  let sql_query = '';
+  let personID = req.body.IDNo;
+  let searchQuery = '';
 
   // if user search with 'all' he will get 'all'
-  if (studentID != 'all') {
-    sql_query += `select * from person where IDNo = ${studentID};`;
+  if (personID == 'all' || personID == '*') {
+    searchQuery += `select * from person`;
   }
   else{
-    sql_query += `select * from person;`;
+    searchQuery += `select * from person where IDNo = ${personID};`;
   }
-  con.query(sql_query, function(err, result) {
+  con.query(searchQuery, function(err, result) {
     if (err) {
-      console.log("Error: ", err);
-      console.log("Cause: ",sql_query);
+      console.log("search query error: ", err);
+      console.log("query error cause: ", searchQuery);
       res.send({});
     }
     else {
@@ -28,31 +28,47 @@ router.post('/searchbyid', function(req, res){
     }
   });
 })
-/*
+
 // INSERT STUDENT DATA
 router.post('/insertperson', function(req, res){
 
-  let studentID = req.body.IDNo;
-  let studentID = req.body.FName;
-  let studentID = req.body.Lname;
-  let studentID = req.body.Sex;
-  let studentID = req.body.BirthDate;
-  let studentID = req.body.Address;
-  let studentID = req.body.PhoneNo;
+  let personID = req.body.IDNo;
+  let Fname = req.body.Fname;
+  let Lname = req.body.Lname;
+  let Sex = req.body.Sex;
+  let BirthDate = req.body.BirthDate;
+  let Address = req.body.Address;
+  let PhoneNo = req.body.PhoneNo;
 
-  let sql_query = `select * from person where IDNo = ${studentID};`;
-  con.query(sql_query, function(err, result) {
+  let checkQuery = `select * from person where IDNo=${personID};`;
+  con.query(checkQuery, function(err, checkResult) {
     if (err) {
-      console.log("query error!", err);
-      console.log(sql_query);
-      res.send({});
+      console.log("check query error: ", err);
+      console.log("query error cause: ",checkQuery);
+    }
+    else if (!checkResult.length>0) {
+      let insertQuery = `insert into person(IDNo,Fname,Lname,Sex,BirthDate,Address,PhoneNo)
+      values('${personID}','${Fname}','${Lname}','${Sex}','${BirthDate}','${Address}','${PhoneNo}');`;
+      con.query(insertQuery, function(err, result) {
+        if (err) {
+          console.log("insert query error: ", err);
+          console.log("query error cause: ",insertQuery);
+          res.send({});
+        }
+        else {
+          console.log("Success");
+          res.send('Success');
+        }
+      });
     }
     else {
-      res.send(result);
+      console.log("Duplicate");
+      res.send({});
     }
   });
+
 })
-*/
+
 // this make we can access homepage from 'localhost:8080/student''
 router.get('/', function(req, res){
   res.sendfile("./search.html");
