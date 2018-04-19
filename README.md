@@ -1,8 +1,9 @@
 # Reg Chula Project - Database
 #### ~~Fake Chula Project - Database~~ ####
-
+ 
+ 
 Last Edit-by-Yukung Version on 19 April 2018.
-
+ 
 Description: The version on last day-of-presentation.
 
 ## Feature
@@ -20,14 +21,9 @@ Description: The version on last day-of-presentation.
 ----
  
  
-## Shortcut of " How to install `npm` "
+## Shortcut of "How to install `npm`"
 
- - open command prompt
- - `npm init`
- - `npm install **HERE**`
- replace **HERE** with the following words :
- >> `express --save`,
- >> `express --no-save`,
- >> `http`,
- >> `mysql`,
- >> `nodemon`  
+ > open command prompt
+ > `npm init`
+ > `npm install **HERE**`, by replace **HERE** with the following words :
+ >> `express --save`, `express --no-save`, `http`, `mysql`, `nodemon`  
