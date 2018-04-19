@@ -13,12 +13,12 @@ Feature
   
 shortcut of " How to install `npm` "
 
-> open command prompt
-> `npm init`
-> `npm install **HERE**`
+ - open command prompt
+ - `npm init`
+ - `npm install **HERE**`
  replace **HERE** with the following words :
-> `express --save`
-> `express --no-save`
-> `http`
-> `mysql`
-> `nodemon`  
+ - `express --save`
+ - `express --no-save`
+ - `http`
+ - `mysql`
+ - `nodemon`  
