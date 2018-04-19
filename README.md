@@ -1,4 +1,5 @@
-## database
+# Reg Chula Project - Database
+#### ~~Fake Chula Project - Database~~ ####
 
 Last Edit-by-Yukung Version on 19 April 2018.
 
@@ -25,8 +26,8 @@ Description: The version on last day-of-presentation.
  - `npm init`
  - `npm install **HERE**`
  replace **HERE** with the following words :
- > `express --save`,
- > `express --no-save`,
- > `http`,
- > `mysql`,
- > `nodemon`  
+ >> `express --save`,
+ >> `express --no-save`,
+ >> `http`,
+ >> `mysql`,
+ >> `nodemon`  
