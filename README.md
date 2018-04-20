@@ -22,6 +22,7 @@
  * `npm init`.
  * `npm install **HERE**`, by replace `**HERE**` with the following words :
     * `express --save`, `express --no-save`, `http`, `mysql`, `nodemon`  
+    * `-g nodemon` (if can't use the nodemon command installed at top)
 - - - -
 # Problem to solve
  - [x] [Front] : change `BirthDate` format to **Date** without **Time**,<br>
