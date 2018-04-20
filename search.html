@@ -35,7 +35,7 @@
            $("#Sex"+rowCount).html(data[0].Sex);
 
            // we add .split('T')[0] to remove timestamp
-           $("#BirthDate"+rowCount).html(data[0].BirthDate.split('T')[0]);
+           $("#BirthDate"+rowCount).html(data[0].BirthDate);
            $("#Address"+rowCount).html(data[0].Address);
            $("#PhoneNo"+rowCount).html(data[0].PhoneNo);
            person_on_web.push(data[0].IDNo);
@@ -59,7 +59,7 @@
              $("#displaySex"+rowCount).html(data[i].Sex);
 
              // we add .split('T')[0] to remove timestamp
-             $("#displayBirthDate"+rowCount).html(data[i].BirthDate.split('T')[0]);
+             $("#displayBirthDate"+rowCount).html(data[i].BirthDate);
              $("#displayAddress"+rowCount).html(data[i].Address);
              $("#displayPhoneNo"+rowCount).html(data[i].PhoneNo);
              person_on_web.push(data[i].IDNo);

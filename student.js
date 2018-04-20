@@ -10,8 +10,10 @@ router.post('/searchbyid', function(req, res){
 
   // if user search with 'all' he will get 'all'
   if (personID == 'all' || personID == '*') {
-    searchQuery += `select * from person`;
+    searchQuery += `select IDNo,Fname,Lname,Sex,DATE_FORMAT(BirthDate, '%Y-%m-%d') as BirthDate,Address,PhoneNo from person`;
+
   }
+
   else{
     searchQuery += `select * from person where IDNo = ${personID};`;
   }

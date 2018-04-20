@@ -7,7 +7,7 @@
     $("#button").click(function(){
       event.preventDefault();
 
-      $.post("http://localhost:8080/student/searchbyid",{IDNo: $("#IDNo").val() }, function(data, status){
+      $.post("http://localhost:8081/student/searchbyid",{IDNo: $("#IDNo").val() }, function(data, status){
         var message = "Submitted!";
         if(data.length<1) {
           alert("404: Found Nothing");
