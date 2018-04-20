@@ -38,3 +38,19 @@
   * refactor [1.0]index.html to [1.1]search.html
   * add ability searching with `all` to front-end, it's `select * from person` in back-end`<br>
     that means now our front-end can loop!
+
+- - - -
+# How to use github in atom editor
+   * fork the project to your github
+   * copy clone URL
+   * open atom and type "Ctrl + shift + p", then type "git clone" enter
+   * Paste the url and select your directory
+# How to push
+   * open git tab from view /or type "Ctrl + Shift + 9(not on numpad)"
+   * double click any items which you would like to push on "Unstaged Changes"
+   * fill the commit message
+   * press commit button then push
+# How to Pull
+   * click fecth, the a number of changes will apear if there are some changes
+   * click pull
+   
