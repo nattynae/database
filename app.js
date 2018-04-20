@@ -13,7 +13,7 @@ var router = require('./student');
 // (it has ever named index.html)
 app.use('/',
   router.get('/', function(req, res){
-    res.sendfile("./index.html");
+    res.sendfile("./search.html");
   })
 );
 
