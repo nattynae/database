@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <script>
+  function genTable(){
+    var array = ["","1","Anna","Pit","350","2","Pit","Bull","100","3","IMBA","Eiei","50"];
+  var mytable = "<thead><tr><th>#</th><th>Firstname</th><th>Lastname</th><th>Score</th></tr></thead><tbody>";
+    for (var i = 1; i <= 12; i++) {
+      if (i % 4 == 1 && i != 1) {
+        mytable += "</tr><tr>";
+        }
+        mytable += "<td>" + array[i] + "</td>";
+      }
+      mytable += "</tr>";
+      document.getElementById("demo").innerHTML=mytable;
+  }
+  </script>
+
+<div class="container">
+  <div class="table-responsive">
+    <button onclick="genTable()">GenTables</button>
+  <table class="table table-hover" id="demo">
+
+    </tbody>
+  </table>
+  </div>
+</div>
+
+</body>
+</html>
