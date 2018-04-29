@@ -92,7 +92,7 @@ function genTableRegister() {
         usedResgister.push(courseNoValue);
   }
 
-  function withdrawnOperation() {
+function withdrawnOperation() {
           var value = $("#courseID").val().toLowerCase();
 
           $("#myTable tr").filter(function() {
@@ -104,4 +104,4 @@ function genTableRegister() {
             }
           });
         return retval;
-    }
+}

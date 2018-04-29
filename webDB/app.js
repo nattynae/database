@@ -6,6 +6,7 @@ var app = express();
 var server = http.createServer(app);
 var bodyParser = require('body-parser');
 var studentData = require('./student');
+var adminpage = require('./admin');
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -16,6 +17,7 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/student',studentData);
+app.use('/admin',adminpage);
 
 // Only LocalHost
 app.use('/student/vendor', express.static('vendor'));

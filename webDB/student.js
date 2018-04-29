@@ -2,10 +2,6 @@ var app = require('express');
 var router = app.Router();
 var mysql = require('mysql');
   var con = require('./conn');
-/*
-router.post('/searchby/:type', function(req, res){
-  let type = req.params.type;
-*/
 
 router.post('/searchbyid', function(req, res){
   let studentID = req.body.IDNo;
@@ -20,12 +16,9 @@ router.post('/searchbyid', function(req, res){
       res.send(result);
     }
   });
-
 })
 
 router.post('/remove', function(req, res){
-  console.log(req.body.courseID);
-
   let courseid = req.body.courseID;
    let sql_query = `DELETE from course where courseID = ${courseid}`;
    // let sql_query = `DELETE from course where courseID='10003'`;
@@ -41,11 +34,6 @@ router.post('/remove', function(req, res){
   });
 
 })
-router.get('/fun/:txt.:speed', function(req, res){
-  var txt = req.params.txt;
-  var speed = req.params.speed;
-  res.send(`<marquee scrollamount=${speed}>${txt}</marquee>`);
-})
 
 router.get('/', function(req, res){
   res.sendfile('./index.html');
@@ -58,7 +46,5 @@ router.get('/rank',function(req,res){
 router.get('/report',function(req,res){
   res.sendFile(path.join(__dirname+'/report.html'));
 });
-
-
 
 module.exports = router;
